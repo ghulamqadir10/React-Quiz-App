@@ -35,7 +35,7 @@ function App() {
       return;
     }
     // Step 2
-    if (quizQuestion[index].correctAns === selectedValue) {
+    if (quizQuestion[index].correctAnswer === selectedValue) {
       setCheckAns(checkAns + 1);
     }
     // Step 3
